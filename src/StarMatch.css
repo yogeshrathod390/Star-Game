@@ -1,0 +1,125 @@
+:root {
+  --main-bg-color:rgb(242, 180, 66);
+}
+
+.game {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 13%;
+  }
+  
+  .body {
+    display: flex;
+    background-color: var(--main-bg-color);
+  }
+  
+  .help {
+   
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .left {
+    text-align: center;
+    width: 50%;
+   
+  }
+  
+  .right {
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    
+  }
+  
+  .star {
+      display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .star:after {
+    content: "\2605";
+    font-size: 45px;
+
+  }
+  
+  .number {
+    background-color: #eee;
+    border: thin solid #ddd;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    font-size: 25px;
+  }
+  
+  .number:focus, .number:active {
+    outline: none;
+    border: thin solid #ddd;
+  }
+  
+  .timer {
+      color: rgb(186, 8, 8);
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+  
+  
+  .game-done .message {
+    font-size: 250%;
+    font-weight: bold;
+    margin: 15px;
+    color: rgb(255, 51, 0);
+  }
+
+  button {
+    background-color: rgb(10, 233, 10);
+    border: 1px solid  rgb(10, 233, 10);
+    width: 40%;
+    height: 60px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  button:hover{
+    background-color: rgb(7, 251, 7);
+    border-radius: 10px;
+    transition: 0.5sec;
+    
+  }
+  
+  @media (max-width:800px) {
+    .left {
+      text-align: center;
+      width: 418%;
+      border: thin solid #ddd;
+    }
+    
+    .right {
+      text-align: center;
+      padding: 5px;
+      width: 554%;
+      border: thin solid #ddd;
+    }
+    .star {
+      display: inline-block;
+    margin: 0 3px;
+  }
+  
+  .body {
+    display: flex;
+  }
+
+  button {
+    background-color: rgb(10, 233, 10);
+    border: 1px solid  rgb(10, 233, 10);
+    
+    
+  }
+  
+  button:hover{
+    background-color: rgb(7, 251, 7);
+    border-radius: 10px;
+    transition: 0.5sec;
+    
+  }
+  }
