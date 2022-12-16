@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Star-Game/static/css/main.6bca6bc6.css",
-    "main.js": "/Star-Game/static/js/main.cc899bdc.js",
+    "main.css": "/Star-Game/static/css/main.65d71d89.css",
+    "main.js": "/Star-Game/static/js/main.6be12b0c.js",
     "static/js/787.bd8347ab.chunk.js": "/Star-Game/static/js/787.bd8347ab.chunk.js",
     "index.html": "/Star-Game/index.html",
-    "main.6bca6bc6.css.map": "/Star-Game/static/css/main.6bca6bc6.css.map",
-    "main.cc899bdc.js.map": "/Star-Game/static/js/main.cc899bdc.js.map",
+    "main.65d71d89.css.map": "/Star-Game/static/css/main.65d71d89.css.map",
+    "main.6be12b0c.js.map": "/Star-Game/static/js/main.6be12b0c.js.map",
     "787.bd8347ab.chunk.js.map": "/Star-Game/static/js/787.bd8347ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bca6bc6.css",
-    "static/js/main.cc899bdc.js"
+    "static/css/main.65d71d89.css",
+    "static/js/main.6be12b0c.js"
   ]
 }
